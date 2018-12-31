@@ -1,0 +1,2170 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hash base",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "WeatherIntent",
+          "samples": [
+            "What is Weather Outside",
+            "Tell me about Weather condition"
+          ]
+        },
+        {
+          "name": "JokeIntent",
+          "slots": [
+            {
+              "name": "JOKE_TYPE",
+              "type": "JOKE_TYPE"
+            }
+          ],
+          "samples": [
+            "Tell me a {JOKE_TYPE}",
+            "What is my Joke"
+          ]
+        },
+        {
+          "name": "TellAQuote",
+          "samples": [
+            "Tell quote of the day",
+            "quote of the day",
+            "tell a quote",
+            "Tell me some quote"
+          ]
+        },
+        {
+          "name": "UpdateShoppingList",
+          "slots": [
+            {
+              "name": "HASH_NAME",
+              "type": "HASH_NAME"
+            },
+            {
+              "name": "HASH_SHOPPINGLIST",
+              "type": "HASH_SHOPPINGLIST"
+            }
+          ],
+          "samples": [
+            "ask {HASH_NAME} to get milk",
+            "Please add {HASH_SHOPPINGLIST} to {HASH_NAME} shopping list",
+            "ask {HASH_NAME} to get {HASH_SHOPPINGLIST}"
+          ]
+        },
+        {
+          "name": "SillyTravel",
+          "samples": [
+            "get my favorite destination"
+          ]
+        },
+        {
+          "name": "SportDemo",
+          "samples": [
+            "what is my sport"
+          ]
+        },
+        {
+          "name": "TournamentsScheduleIntent",
+          "slots": [
+            {
+              "name": "HASH_TOURNAMENT",
+              "type": "HASH_TOURNAMENT"
+            }
+          ],
+          "samples": [
+            "Tell me {HASH_TOURNAMENT} schedule",
+            "Tell me schedule of {HASH_TOURNAMENT}"
+          ]
+        },
+        {
+          "name": "IntentTestServiceTen",
+          "samples": [
+            "say something"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "HPS_TELL_A_SAYING_INTENT",
+          "samples": [
+            "Tell a saying",
+            "Saying of the day"
+          ]
+        },
+        {
+          "name": "dsadas",
+          "samples": [
+            "dsasadsa"
+          ]
+        },
+        {
+          "name": "test",
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "MyHashCheck",
+          "samples": [
+            "Hash Check Twice"
+          ]
+        },
+        {
+          "name": "dgdg",
+          "samples": [
+            "dgdsgs",
+            "dgsd"
+          ]
+        },
+        {
+          "name": "HPS_TELL_A_QUOTE_INTENT",
+          "samples": [
+            "Tell me a quote",
+            "Tell me some quote",
+            "Quote of the day",
+            "Thought of the day",
+            "Thought for the day",
+            "Thoughts of the day",
+            "Thoughts for the day",
+            "Tell me a thought",
+            "get me some thought",
+            "Get me some quote",
+            "read some quote"
+          ]
+        },
+        {
+          "name": "HPS_TOURNAMENTS_SCHEDULE_INTENT",
+          "slots": [
+            {
+              "name": "HASH_TOURNAMENT",
+              "type": "HASH_TOURNAMENT"
+            }
+          ],
+          "samples": [
+            "Tell me the {HASH_TOURNAMENT} world cup schedule",
+            "Tell me {HASH_TOURNAMENT} schedule",
+            "{HASH_TOURNAMENT} schedule",
+            "what is the schedule for {HASH_TOURNAMENT}",
+            "latest schedule of {HASH_TOURNAMENT}",
+            "Tell me {HASH_TOURNAMENT} tournament schedule"
+          ]
+        },
+        {
+          "name": "HPS_COUNTRY_INFO_INTENT",
+          "slots": [
+            {
+              "name": "HASH_INFO_TYPE",
+              "type": "HASH_INFO_TYPE"
+            },
+            {
+              "name": "HASH_COUNTRY",
+              "type": "HASH_COUNTRY"
+            }
+          ],
+          "samples": [
+            "tell me {HASH_INFO_TYPE} of {HASH_COUNTRY}",
+            "what is the {HASH_INFO_TYPE} of {HASH_COUNTRY}",
+            "{HASH_INFO_TYPE} of {HASH_COUNTRY}",
+            "let me know {HASH_INFO_TYPE} of {HASH_COUNTRY}",
+            "which city is {HASH_INFO_TYPE} of {HASH_COUNTRY}",
+            "what is the {HASH_INFO_TYPE} for {HASH_COUNTRY}"
+          ]
+        },
+        {
+          "name": "HPS_FRUITS_LIST_INTENT",
+          "slots": [
+            {
+              "name": "HASH_FOOD_ITEM",
+              "type": "HASH_FOOD_ITEM"
+            }
+          ],
+          "samples": [
+            "List of popular {HASH_FOOD_ITEM}",
+            "List of seasonal {HASH_FOOD_ITEM}",
+            "Tell me the popular {HASH_FOOD_ITEM}",
+            "Tell me the popular {HASH_FOOD_ITEM}"
+          ]
+        },
+        {
+          "name": "HPS_BASIC_MATHS_INTENT",
+          "slots": [
+            {
+              "name": "HASH_EXPRESSION",
+              "type": "HASH_EXPRESSION"
+            }
+          ],
+          "samples": [
+            "Evaluate {HASH_EXPRESSION}",
+            "Tell me {HASH_EXPRESSION}",
+            "Resolve {HASH_EXPRESSION}",
+            "what is {HASH_EXPRESSION}",
+            "Calculate {HASH_EXPRESSION}"
+          ]
+        },
+        {
+          "name": "MyOffice",
+          "slots": [
+            {
+              "name": "HASH_INFO_TYPE",
+              "type": "HASH_INFO_TYPE"
+            }
+          ],
+          "samples": [
+            "Meetings in my {HASH_INFO_TYPE} "
+          ]
+        },
+        {
+          "name": "HPS_TELL_A_JOKE_INTENT",
+          "samples": [
+            "Tell me a joke",
+            "Tell a joke",
+            "Say a joke",
+            "Make me laugh",
+            "Crack a joke"
+          ]
+        },
+        {
+          "name": "ServiceTest",
+          "slots": [
+            {
+              "name": "HASH_FOOD_ITEM",
+              "type": "HASH_FOOD_ITEM"
+            }
+          ],
+          "samples": [
+            "Service is being tested with {HASH_FOOD_ITEM} "
+          ]
+        },
+        {
+          "name": "AnkushAportsIntent",
+          "slots": [
+            {
+              "name": "HASH_FOOD_ITEM",
+              "type": "HASH_FOOD_ITEM"
+            }
+          ],
+          "samples": [
+            "Tell My fav {HASH_FOOD_ITEM} "
+          ]
+        },
+        {
+          "name": "TESTSERVICEHARMANINTENt",
+          "samples": [
+            "this is test utterance"
+          ]
+        },
+        {
+          "name": "INTENTONE_B",
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "FFGFG",
+          "samples": [
+            "fgfgfgf"
+          ]
+        },
+        {
+          "name": "HPS_NEWS_INTENT",
+          "samples": [
+            "Read some news",
+            "Tell some news",
+            "Whats in news"
+          ]
+        },
+        {
+          "name": "TESTINTENT_BV",
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "TESTTES",
+          "samples": [
+            "test",
+            "testone"
+          ]
+        },
+        {
+          "name": "TESTINTENTONE_B",
+          "samples": [
+            "test",
+            "test one"
+          ]
+        },
+        {
+          "name": "VCXVCXV",
+          "slots": [
+            {
+              "name": "DDD",
+              "type": "DDD"
+            }
+          ],
+          "samples": [
+            "cvxc {DDD}"
+          ]
+        },
+        {
+          "name": "K",
+          "samples": [
+            "c"
+          ]
+        },
+        {
+          "name": "TEST_SERVICE",
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "HELLO_WORLD",
+          "slots": [
+            {
+              "name": "HASH_NAMES",
+              "type": "HASH_NAMES",
+              "samples": [
+                "{HASH_NAMES}",
+                "ok"
+              ]
+            }
+          ],
+          "samples": [
+            "{HASH_NAMES}",
+            "hi"
+          ]
+        },
+        {
+          "name": "TEST_HARMA",
+          "slots": [
+            {
+              "name": "SLOT_P",
+              "type": "SLOT_P",
+              "samples": [
+                "{SLOT_P}"
+              ]
+            }
+          ],
+          "samples": [
+            "{SLOT_P} failure"
+          ]
+        },
+        {
+          "name": "HPS_SET_REMINDER_INTENT",
+          "slots": [
+            {
+              "name": "HASH_EVENTS",
+              "type": "HASH_EVENTS",
+              "samples": [
+                "{HASH_EVENTS}"
+              ]
+            },
+            {
+              "name": "HASH_TIME",
+              "type": "AMAZON.TIME",
+              "samples": [
+                "{HASH_TIME}"
+              ]
+            }
+          ],
+          "samples": [
+            "set a reminder for {HASH_EVENTS} at {HASH_TIME}",
+            "set a reminder today for {HASH_EVENTS} at {HASH_TIME}",
+            "set reminder for {HASH_EVENTS} for {HASH_TIME}"
+          ]
+        },
+        {
+          "name": "HPS_GET_REMINDER_INTENT",
+          "samples": [
+            "what are my reminders",
+            "get my events for today",
+            "what is my reminders for today"
+          ]
+        },
+        {
+          "name": "DSCSDVD",
+          "slots": [
+            {
+              "name": "HASH_EVENTS",
+              "type": "HASH_EVENTS",
+              "samples": [
+                "{HASH_EVENTS}"
+              ]
+            }
+          ],
+          "samples": [
+            "dsvds {HASH_EVENTS}",
+            "scdsc {HASH_EVENTS}"
+          ]
+        },
+        {
+          "name": "TESTTA",
+          "samples": [
+            "tester",
+            "ttesttetst"
+          ]
+        },
+        {
+          "name": "TESTXMLRESPONSEEDIT",
+          "slots": [
+            {
+              "name": "HASH_EVENTS",
+              "type": "HASH_EVENTS"
+            }
+          ],
+          "samples": [
+            "sadadas",
+            "hhghk {HASH_EVENTS}"
+          ]
+        },
+        {
+          "name": "AlexaAA",
+          "samples": [
+            "Alexa",
+            "adapter",
+            "utterance"
+          ]
+        },
+        {
+          "name": "AlexaDD",
+          "samples": [
+            "Positive"
+          ]
+        },
+        {
+          "name": "Alexa_FF",
+          "samples": [
+            "UnderScore"
+          ]
+        },
+        {
+          "name": "Int_Ent_NameE",
+          "samples": [
+            "Double"
+          ]
+        },
+        {
+          "name": "TEST_SERVICE_INTENT",
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "TESTEDITBUG",
+          "samples": [
+            "dlkjsadls"
+          ]
+        },
+        {
+          "name": "TESTMYINTENT",
+          "slots": [
+            {
+              "name": "HASH_EVENTS",
+              "type": "HASH_EVENTS"
+            }
+          ],
+          "samples": [
+            "test {HASH_EVENTS}"
+          ]
+        },
+        {
+          "name": "DSALKDSAKJD",
+          "slots": [
+            {
+              "name": "KJFLKSADLKJAS",
+              "type": "KJFLKSADLKJAS",
+              "samples": [
+                "{KJFLKSADLKJAS}"
+              ]
+            }
+          ],
+          "samples": [
+            "ASDASDASD",
+            "test {KJFLKSADLKJAS}"
+          ]
+        },
+        {
+          "name": "GSFDGDF",
+          "slots": [
+            {
+              "name": "KJFLKSADLKJAS",
+              "type": "KJFLKSADLKJAS",
+              "samples": [
+                "{KJFLKSADLKJAS}"
+              ]
+            },
+            {
+              "name": "TESTEDITASHISH",
+              "type": "TESTEDITASHISH",
+              "samples": [
+                "{TESTEDITASHISH}"
+              ]
+            },
+            {
+              "name": "HASH_EVENTS",
+              "type": "HASH_EVENTS",
+              "samples": [
+                "{HASH_EVENTS}"
+              ]
+            },
+            {
+              "name": "HASH_TIME",
+              "type": "AMAZON.TIME",
+              "samples": [
+                "{HASH_TIME}"
+              ]
+            }
+          ],
+          "samples": [
+            "sfsdfsdf",
+            "test {KJFLKSADLKJAS}",
+            "test {TESTEDITASHISH}",
+            "test {HASH_EVENTS}",
+            "test {HASH_TIME}"
+          ]
+        },
+        {
+          "name": "TESTTESTQ",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "TESTT",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "TESTAA",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "TETSTET",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "TESTTOFFICE",
+          "slots": [
+            {
+              "name": "HASH_EVENTS",
+              "type": "HASH_EVENTS",
+              "samples": [
+                "{HASH_EVENTS}"
+              ]
+            }
+          ],
+          "samples": [
+            "test {HASH_EVENTS}"
+          ]
+        },
+        {
+          "name": "ASASASS",
+          "slots": [],
+          "samples": [
+            "asasas",
+            "asasass"
+          ]
+        },
+        {
+          "name": "TESTASA",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "TESTONETESTAA",
+          "slots": [],
+          "samples": [
+            "adsada"
+          ]
+        },
+        {
+          "name": "TESTPLAINTEXT",
+          "slots": [],
+          "samples": [
+            "test plain text response"
+          ]
+        },
+        {
+          "name": "SADSAD",
+          "slots": [
+            {
+              "name": "HASH_EVENTS",
+              "type": "HASH_EVENTS",
+              "samples": [
+                "{HASH_EVENTS}"
+              ]
+            },
+            {
+              "name": "HASH_TIME",
+              "type": "AMAZON.TIME",
+              "samples": [
+                "{HASH_TIME}"
+              ]
+            }
+          ],
+          "samples": [
+            "sadsa",
+            "asdsada {HASH_EVENTS}",
+            "{HASH_TIME}"
+          ]
+        },
+        {
+          "name": "TESTI",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "TESTIA",
+          "slots": [],
+          "samples": [
+            "tets"
+          ]
+        },
+        {
+          "name": "TESTAS",
+          "slots": [],
+          "samples": [
+            "testas"
+          ]
+        },
+        {
+          "name": "TESTASAS",
+          "slots": [],
+          "samples": [
+            "testasa"
+          ]
+        },
+        {
+          "name": "FFDGFDGFD",
+          "slots": [
+            {
+              "name": "TESTMOVIE_ADMIN",
+              "type": "TESTMOVIE_ADMIN"
+            }
+          ],
+          "samples": [
+            "{TESTMOVIE_ADMIN}"
+          ]
+        },
+        {
+          "name": "TESTABC",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "TESTABV",
+          "slots": [],
+          "samples": [
+            "tets"
+          ]
+        },
+        {
+          "name": "TESTINY",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "ASASAASAS",
+          "slots": [],
+          "samples": [
+            "adasdsadsad"
+          ]
+        },
+        {
+          "name": "DSADASDSA",
+          "slots": [],
+          "samples": [
+            "daddas"
+          ]
+        },
+        {
+          "name": "TEST_POST",
+          "slots": [],
+          "samples": [
+            "ABC"
+          ]
+        },
+        {
+          "name": "SADADADA",
+          "slots": [],
+          "samples": [
+            "sadas"
+          ]
+        },
+        {
+          "name": "TESTAD",
+          "slots": [],
+          "samples": [
+            "aa'"
+          ]
+        },
+        {
+          "name": "TEST_ASAS",
+          "slots": [],
+          "samples": [
+            "asdsad"
+          ]
+        },
+        {
+          "name": "TEST_ASASaa",
+          "slots": [],
+          "samples": [
+            "asdsad"
+          ]
+        },
+        {
+          "name": "UserMeetingUpcoming",
+          "slots": [],
+          "samples": [
+            "when is my next meeting"
+          ]
+        },
+        {
+          "name": "testCaseIntent",
+          "slots": [],
+          "samples": [
+            "ddvdsvdv"
+          ]
+        },
+        {
+          "name": "SADSADSADSAD",
+          "slots": [],
+          "samples": [
+            "adsadsadadad"
+          ]
+        },
+        {
+          "name": "AAAAA",
+          "slots": [],
+          "samples": [
+            "aaaa"
+          ]
+        },
+        {
+          "name": "SADSADASD",
+          "slots": [],
+          "samples": [
+            "asdsadasd"
+          ]
+        },
+        {
+          "name": "PLEASEHELLO",
+          "slots": [],
+          "samples": [
+            "sadsadsa"
+          ]
+        },
+        {
+          "name": "TETSASASSASASAS",
+          "slots": [],
+          "samples": [
+            "tetstasd"
+          ]
+        },
+        {
+          "name": "TEST_ASaSaaadas",
+          "slots": [],
+          "samples": [
+            "asdsad"
+          ]
+        },
+        {
+          "name": "TESTFOODT",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "FGFGFDGFDSGDSAD",
+          "slots": [],
+          "samples": [
+            "sadasdad"
+          ]
+        },
+        {
+          "name": "TESTASASAS",
+          "slots": [],
+          "samples": [
+            "xczcmmm"
+          ]
+        },
+        {
+          "name": "ATRAASAS",
+          "slots": [],
+          "samples": [
+            "tesaas"
+          ]
+        },
+        {
+          "name": "INTENTACTION",
+          "slots": [],
+          "samples": [
+            "hi action"
+          ]
+        },
+        {
+          "name": "SDASDASD",
+          "slots": [],
+          "samples": [
+            "sadasdasdas"
+          ]
+        },
+        {
+          "name": "fafsafsafsaf",
+          "slots": [],
+          "samples": [
+            "asfasfafsa"
+          ]
+        },
+        {
+          "name": "sadsaddsaasd",
+          "slots": [],
+          "samples": [
+            "sadasdas"
+          ]
+        },
+        {
+          "name": "sadasdsasad",
+          "slots": [],
+          "samples": [
+            "asdsadsada",
+            "sdsada"
+          ]
+        },
+        {
+          "name": "TestInJest",
+          "slots": [],
+          "samples": [
+            "testa"
+          ]
+        },
+        {
+          "name": "Testassasa",
+          "slots": [],
+          "samples": [
+            "tasassasasasa"
+          ]
+        },
+        {
+          "name": "sadsadasdsadas",
+          "slots": [],
+          "samples": [
+            "asdasdadadasdsa"
+          ]
+        },
+        {
+          "name": "Yesata",
+          "slots": [],
+          "samples": [
+            "testa"
+          ]
+        },
+        {
+          "name": "XCXZCZXC",
+          "slots": [],
+          "samples": [
+            "xzczxczxc"
+          ]
+        },
+        {
+          "name": "DSFDSFAXA",
+          "slots": [],
+          "samples": [
+            "xaxaxa"
+          ]
+        },
+        {
+          "name": "HelloInTest",
+          "slots": [],
+          "samples": [
+            "testa"
+          ]
+        },
+        {
+          "name": "dsfsdfsdf",
+          "slots": [],
+          "samples": [
+            "dsfsdf"
+          ]
+        },
+        {
+          "name": "sdvdsvsdv",
+          "slots": [],
+          "samples": [
+            "dsvdsvdsv"
+          ]
+        },
+        {
+          "name": "xzczxcxz",
+          "slots": [],
+          "samples": [
+            "xcxzczxc"
+          ]
+        },
+        {
+          "name": "qwertyu",
+          "slots": [
+            {
+              "name": "TEST_SLOT_NEW",
+              "type": "TEST_SLOT_NEW"
+            }
+          ],
+          "samples": [
+            "{TEST_SLOT_NEW}",
+            "hi {TEST_SLOT_NEW}"
+          ]
+        },
+        {
+          "name": "TestInTest",
+          "slots": [
+            {
+              "name": "TESTSLOTENRICH",
+              "type": "AMAZON.Color"
+            }
+          ],
+          "samples": [
+            "tst {TESTSLOTENRICH}"
+          ]
+        },
+        {
+          "name": "TEST_SLOT_KK",
+          "slots": [
+            {
+              "name": "TEST_SLOT",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "phone no is {TEST_SLOT}"
+          ]
+        },
+        {
+          "name": "testasindia",
+          "slots": [
+            {
+              "name": "TESTSLOT_NEW",
+              "type": "AMAZON.TIME"
+            }
+          ],
+          "samples": [
+            "yes {TESTSLOT_NEW}"
+          ]
+        },
+        {
+          "name": "nmnnmn",
+          "slots": [],
+          "samples": [
+            "hbhjbhjb"
+          ]
+        },
+        {
+          "name": "Testin",
+          "slots": [],
+          "samples": [
+            "rest"
+          ]
+        },
+        {
+          "name": "hello",
+          "slots": [],
+          "samples": [
+            "hello test"
+          ]
+        },
+        {
+          "name": "Test_new_admin",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "dfddfdf",
+          "slots": [],
+          "samples": [
+            "gdfgfd"
+          ]
+        },
+        {
+          "name": "hello_aaa",
+          "slots": [],
+          "samples": [
+            "abc"
+          ]
+        },
+        {
+          "name": "xczxc",
+          "slots": [],
+          "samples": [
+            "xcxzcxz"
+          ]
+        },
+        {
+          "name": "sdfsdfsd",
+          "slots": [],
+          "samples": [
+            "dsfdsfd"
+          ]
+        },
+        {
+          "name": "dfdfdfd",
+          "slots": [],
+          "samples": [
+            "dfdfdf"
+          ]
+        },
+        {
+          "name": "sdfsfdfsd",
+          "slots": [],
+          "samples": [
+            "dfdfdfd"
+          ]
+        },
+        {
+          "name": "wefef",
+          "slots": [],
+          "samples": [
+            "wfwfwf"
+          ]
+        },
+        {
+          "name": "dgdfgg",
+          "slots": [],
+          "samples": [
+            "esfsgdgd"
+          ]
+        },
+        {
+          "name": "sfsfsfs",
+          "slots": [],
+          "samples": [
+            "sfsfsffs"
+          ]
+        },
+        {
+          "name": "fdgdgd",
+          "slots": [],
+          "samples": [
+            "dgdggd"
+          ]
+        },
+        {
+          "name": "TestIntentService",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "test_iin",
+          "slots": [],
+          "samples": [
+            "tes"
+          ]
+        },
+        {
+          "name": "testAaaas_a",
+          "slots": [],
+          "samples": [
+            "test"
+          ]
+        },
+        {
+          "name": "asasasq",
+          "slots": [],
+          "samples": [
+            "asasq"
+          ]
+        },
+        {
+          "name": "dsfsdfsdfdfdf",
+          "slots": [],
+          "samples": [
+            "xcxcxcx"
+          ]
+        },
+        {
+          "name": "wdwdwd",
+          "slots": [],
+          "samples": [
+            "wdwqdqwd"
+          ]
+        },
+        {
+          "name": "HPS_SHOPPING_INTRACTIVE",
+          "slots": [
+            {
+              "name": "PRODUCT",
+              "type": "PRODUCT",
+              "samples": [
+                "{PRODUCT}"
+              ]
+            },
+            {
+              "name": "COLOUR",
+              "type": "AMAZON.Color"
+            },
+            {
+              "name": "BRAND",
+              "type": "BRAND"
+            },
+            {
+              "name": "SIZE",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "I want to buy {PRODUCT}",
+            "testing of interactive slots {COLOUR} {BRAND} {SIZE}",
+            "I want to buy",
+            "Start shooping"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "adult"
+              }
+            },
+            {
+              "name": {
+                "value": "kid"
+              }
+            }
+          ],
+          "name": "JOKE_TYPE"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "WIMBELDON"
+              }
+            },
+            {
+              "name": {
+                "value": "CRICKET"
+              }
+            },
+            {
+              "name": {
+                "value": "FIFA"
+              }
+            },
+            {
+              "name": {
+                "value": "lawn tennis"
+              }
+            },
+            {
+              "name": {
+                "value": "rugby"
+              }
+            },
+            {
+              "name": {
+                "value": "soccer"
+              }
+            }
+          ],
+          "name": "HASH_TOURNAMENT"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "coffee"
+              }
+            },
+            {
+              "name": {
+                "value": "milk"
+              }
+            },
+            {
+              "name": {
+                "value": "eggs"
+              }
+            },
+            {
+              "name": {
+                "value": "tea"
+              }
+            },
+            {
+              "name": {
+                "value": "butter"
+              }
+            },
+            {
+              "name": {
+                "value": "bread"
+              }
+            }
+          ],
+          "name": "HASH_SHOPPINGLIST"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "shivam"
+              }
+            },
+            {
+              "name": {
+                "value": "adesh"
+              }
+            },
+            {
+              "name": {
+                "value": "ankit"
+              }
+            },
+            {
+              "name": {
+                "value": "ashish"
+              }
+            },
+            {
+              "name": {
+                "value": "karan"
+              }
+            },
+            {
+              "name": {
+                "value": "ankush"
+              }
+            },
+            {
+              "name": {
+                "value": "jane"
+              }
+            },
+            {
+              "name": {
+                "value": "steve"
+              }
+            },
+            {
+              "name": {
+                "value": "gaurav"
+              }
+            },
+            {
+              "name": {
+                "value": "rajesh"
+              }
+            },
+            {
+              "name": {
+                "value": "kevin"
+              }
+            }
+          ],
+          "name": "HASH_NAME"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "TEST"
+              }
+            },
+            {
+              "name": {
+                "value": "TESTMORE"
+              }
+            }
+          ],
+          "name": "HASH_TEST"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "vv"
+              }
+            },
+            {
+              "name": {
+                "value": "vvv"
+              }
+            },
+            {
+              "name": {
+                "value": "vvvv"
+              }
+            }
+          ],
+          "name": "SLOTNAMW"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "vv"
+              }
+            },
+            {
+              "name": {
+                "value": "vvv"
+              }
+            },
+            {
+              "name": {
+                "value": "vvvv"
+              }
+            }
+          ],
+          "name": "SLOTNAMWX"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "xcvcxv"
+              }
+            },
+            {
+              "name": {
+                "value": "xcvcxvvv"
+              }
+            }
+          ],
+          "name": "XCXCX"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "ggg"
+              }
+            }
+          ],
+          "name": "SLOTNAME"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "fruits"
+              }
+            },
+            {
+              "name": {
+                "value": "vegitables"
+              }
+            }
+          ],
+          "name": "HASH_FOOD_ITEM"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "India"
+              }
+            },
+            {
+              "name": {
+                "value": "Pakistan"
+              }
+            },
+            {
+              "name": {
+                "value": "Nepal"
+              }
+            },
+            {
+              "name": {
+                "value": "China"
+              }
+            }
+          ],
+          "name": "HASH_COUNTRY"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "capital"
+              }
+            },
+            {
+              "name": {
+                "value": "code"
+              }
+            }
+          ],
+          "name": "HASH_INFO_TYPE"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "scd"
+              }
+            },
+            {
+              "name": {
+                "value": "scddd"
+              }
+            }
+          ],
+          "name": "TEST"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Alexa"
+              }
+            },
+            {
+              "name": {
+                "value": "Cortana"
+              }
+            }
+          ],
+          "name": "ANKUSHSLOTFORSPEAKER"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "entertainment"
+              }
+            },
+            {
+              "name": {
+                "value": "business"
+              }
+            },
+            {
+              "name": {
+                "value": "technology"
+              }
+            },
+            {
+              "name": {
+                "value": "sports"
+              }
+            },
+            {
+              "name": {
+                "value": "science"
+              }
+            },
+            {
+              "name": {
+                "value": "health"
+              }
+            },
+            {
+              "name": {
+                "value": "general"
+              }
+            }
+          ],
+          "name": "HASH_NEWS_CATEGORY"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "a"
+              }
+            }
+          ],
+          "name": "HASH_EXPRESSION"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "one"
+              }
+            },
+            {
+              "name": {
+                "value": "two"
+              }
+            },
+            {
+              "name": {
+                "value": "three"
+              }
+            }
+          ],
+          "name": "HARMANONE"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "test"
+              }
+            },
+            {
+              "name": {
+                "value": "testone"
+              }
+            },
+            {
+              "name": {
+                "value": "testonet"
+              }
+            }
+          ],
+          "name": "TESTSLOTONEASA"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "test"
+              }
+            }
+          ],
+          "name": "SLOT_P"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "ddd"
+              }
+            }
+          ],
+          "name": "DDD"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "gaurav"
+              }
+            },
+            {
+              "name": {
+                "value": "ankur"
+              }
+            },
+            {
+              "name": {
+                "value": "ashishh"
+              }
+            },
+            {
+              "name": {
+                "value": "ankit"
+              }
+            }
+          ],
+          "name": "HASH_NAMES"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "meeting with kevin"
+              }
+            }
+          ],
+          "name": "HASH_EVENTS"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cc"
+              }
+            },
+            {
+              "name": {
+                "value": "xssss"
+              }
+            },
+            {
+              "name": {
+                "value": "sdsds"
+              }
+            },
+            {
+              "name": {
+                "value": "assadsa"
+              }
+            }
+          ],
+          "name": "SSS"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "check1"
+              }
+            },
+            {
+              "name": {
+                "value": "check2"
+              }
+            }
+          ],
+          "name": "CreatesEntitywCheck"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "check1"
+              }
+            }
+          ],
+          "name": "Create_Entity"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "check1"
+              }
+            }
+          ],
+          "name": "CreateEntity"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "gshdj"
+              }
+            }
+          ],
+          "name": "CreateEntityABCD"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "test A B"
+              }
+            }
+          ],
+          "name": "EntityHGFD"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "asdasd"
+              }
+            }
+          ],
+          "name": "TESTEDITBUG"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "sadsakd"
+              }
+            }
+          ],
+          "name": "KJFLKSADLKJAS"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "sadsa"
+              }
+            }
+          ],
+          "name": "TESTEDITASHISH"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "test"
+              }
+            },
+            {
+              "name": {
+                "value": "rrest"
+              }
+            }
+          ],
+          "name": "TESTTET"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "aa"
+              }
+            },
+            {
+              "name": {
+                "value": "bbb"
+              }
+            }
+          ],
+          "name": "RAJESHSLOTAA"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "cc"
+              }
+            },
+            {
+              "name": {
+                "value": "vv"
+              }
+            }
+          ],
+          "name": "RAJESHSLOTBB"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "pizza"
+              }
+            },
+            {
+              "name": {
+                "value": "burger"
+              }
+            }
+          ],
+          "name": "TESTFOOD_ADMIN"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "abc"
+              }
+            },
+            {
+              "name": {
+                "value": "assaas"
+              }
+            }
+          ],
+          "name": "TESTMOVIE_ADMIN"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "test"
+              }
+            }
+          ],
+          "name": "TEST_RISH"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "tets"
+              }
+            },
+            {
+              "name": {
+                "value": "yesy"
+              }
+            }
+          ],
+          "name": "TESTADMIN"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "adsasdsa"
+              }
+            },
+            {
+              "name": {
+                "value": "asdsad"
+              }
+            },
+            {
+              "name": {
+                "value": "adasdasddsa"
+              }
+            }
+          ],
+          "name": "DSADSAD"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "TestAt"
+              }
+            },
+            {
+              "name": {
+                "value": "sadsadsa"
+              }
+            },
+            {
+              "name": {
+                "value": "adssadsadsa"
+              }
+            }
+          ],
+          "name": "TESTSLOTABC"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "asdasdadsad"
+              }
+            }
+          ],
+          "name": "TESTSLOTRISJAIN"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "test"
+              }
+            },
+            {
+              "name": {
+                "value": "bread"
+              }
+            },
+            {
+              "name": {
+                "value": "butter"
+              }
+            }
+          ],
+          "name": "TEST_SLOT_NEW"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "test"
+              }
+            },
+            {
+              "name": {
+                "value": "testaa"
+              }
+            }
+          ],
+          "name": "TESTMYAA"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "shirts"
+              }
+            },
+            {
+              "name": {
+                "value": "shoes"
+              }
+            },
+            {
+              "name": {
+                "value": "spectacles"
+              }
+            }
+          ],
+          "name": "PRODUCT"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "addidas"
+              }
+            },
+            {
+              "name": {
+                "value": "nike"
+              }
+            },
+            {
+              "name": {
+                "value": "reebok"
+              }
+            },
+            {
+              "name": {
+                "value": "titan"
+              }
+            },
+            {
+              "name": {
+                "value": "gucci"
+              }
+            }
+          ],
+          "name": "BRAND"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "yes"
+              }
+            },
+            {
+              "name": {
+                "value": "no"
+              }
+            },
+            {
+              "name": {
+                "value": "ofcourse"
+              }
+            },
+            {
+              "name": {
+                "value": "nope"
+              }
+            }
+          ],
+          "name": "CONFIRMATION"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "GSFDGDF",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "KJFLKSADLKJAS",
+              "type": "KJFLKSADLKJAS",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.GSFDGDF.KJFLKSADLKJAS"
+              }
+            },
+            {
+              "name": "TESTEDITASHISH",
+              "type": "TESTEDITASHISH",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.GSFDGDF.TESTEDITASHISH"
+              }
+            },
+            {
+              "name": "HASH_EVENTS",
+              "type": "HASH_EVENTS",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.GSFDGDF.HASH_EVENTS"
+              }
+            },
+            {
+              "name": "HASH_TIME",
+              "type": "AMAZON.TIME",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.GSFDGDF.HASH_TIME"
+              }
+            }
+          ]
+        },
+        {
+          "name": "TESTTOFFICE",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "HASH_EVENTS",
+              "type": "HASH_EVENTS",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.TESTTOFFICE.HASH_EVENTS"
+              }
+            }
+          ]
+        },
+        {
+          "name": "SADSAD",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "HASH_EVENTS",
+              "type": "HASH_EVENTS",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.SADSAD.HASH_EVENTS"
+              }
+            },
+            {
+              "name": "HASH_TIME",
+              "type": "AMAZON.TIME",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.SADSAD.HASH_TIME"
+              }
+            }
+          ]
+        },
+        {
+          "name": "HPS_SHOPPING_INTRACTIVE",
+          "confirmationRequired": false,
+          "slots": [
+            {
+              "name": "PRODUCT",
+              "type": "PRODUCT",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.HPS_SHOPPING_INTRACTIVE.PRODUCT"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.GSFDGDF.KJFLKSADLKJAS",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "sdasdas"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.GSFDGDF.TESTEDITASHISH",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "sadsadadasd"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.GSFDGDF.HASH_EVENTS",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "adsadsa"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.GSFDGDF.HASH_TIME",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "asdsdas"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.TESTTOFFICE.HASH_EVENTS",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "hello"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.SADSAD.HASH_EVENTS",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "HASH events"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.SADSAD.HASH_TIME",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "HASH times"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.HPS_SHOPPING_INTRACTIVE.PRODUCT",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Please tell the product name"
+          }
+        ]
+      }
+    ]
+  }
+}

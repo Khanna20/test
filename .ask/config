@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "hash": {
+      "skill_id": "amzn1.ask.skill.ac989ee0-ed78-4f2f-a991-c0d62f757469",
+      "was_cloned": true,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:338095085921:function:HASH_TEST"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
